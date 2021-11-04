@@ -8,10 +8,9 @@ h3 {
     position: relative;
     width: 100px; 
     height: 146.37px; 
-    left: 670px
+    left: 825px
 }
-footer {
-     width: 1440px; 
+footer { 
      height: 37px; 
      left: 0px; 
      top: 987px; 
@@ -19,8 +18,7 @@ footer {
     color:#FFFFFF ;  
     background-color: #005677
     }
-body {
-     width: 1440px; 
+body { 
      height: 1024px; 
     }
 .icon {
@@ -36,10 +34,6 @@ body {
     }
 header {
     background-image: url('recursos/hamburgesa.jpg')
-}
-#fotosobremi {
-    width: 200px; 
-    height: 295px
 }
 .icon { color:#FFFFFF
 
