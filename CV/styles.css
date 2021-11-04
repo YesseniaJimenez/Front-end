@@ -1,8 +1,46 @@
-h1 { text-align: center;color: #005677; background-color: #C4C4C4}
-h3 { color: #005677; Background-color: #c4c4c4}
-.perfil { text-align: center; width: 100px; height: 146.37px; text-align: center;}
-footer { width: 1440px; height: 37px;left: 0px; top: 987px; text-align: center; color:#FFFFFF ; background-color: #005677}
-body { width: 1440px; height: 1024px; }
-.icon {background-color: #005677; color:#FFFFFF}
-.pie-pagina { display: inline-block}
-.foto { background-color: #e5e5e5; position: center;}
+h1 { 
+    text-align: center;color: #005677; background-color: #C4C4C4
+}
+h3 {
+     color: #005677; Background-color: #c4c4c4
+    }
+.perfil { 
+    position: relative;
+    width: 100px; 
+    height: 146.37px; 
+    left: 670px
+}
+footer {
+     width: 1440px; 
+     height: 37px; 
+     left: 0px; 
+     top: 987px; 
+     text-align: center; 
+    color:#FFFFFF ;  
+    background-color: #005677
+    }
+body {
+     width: 1440px; 
+     height: 1024px; 
+    }
+.icon {
+    background-color: #005677; 
+    color:#a78484
+}
+.pie-pagina { 
+    display: inline-block
+}
+.foto {
+     background-color: #e5e5e5; 
+     position: center;
+    }
+header {
+    background-image: url('recursos/hamburgesa.jpg')
+}
+#fotosobremi {
+    width: 200px; 
+    height: 295px
+}
+.icon { color:#FFFFFF
+
+}
