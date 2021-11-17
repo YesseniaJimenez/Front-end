@@ -1,13 +1,13 @@
 h1 { 
-    text-align: center;color: #005677; background-color: #C4C4C4
+    text-align: center;color: #ffffff; background-color: #000000
 }
 h3 {
-     color: #005677; Background-color: #c4c4c4
+     color: #ffffff; Background-color: #000000
     }
 .perfil { 
     position: relative;
     width: 170px; 
-    height: 196.37px; 
+    height: 220.37px; 
     left: 780px
 }
 footer { 
@@ -16,13 +16,13 @@ footer {
      top: 987px; 
      text-align: center; 
     color:#FFFFFF ;  
-    background-color: #005677
+    background-color: #000000
     }
 body { 
      height: 1024px; 
     }
 .icon {
-    background-color: #005677; 
+    background-color: #000000; 
     color:#a78484
 }
 .pie-pagina { 
@@ -33,8 +33,12 @@ body {
      position: center;
     }
 header {
-    background-image: url('recursos/hamburgesa.jpg')
+    background-image: url('recursos/hamburgesa.jpg');
+
 }
 .icon { color:#FFFFFF
 
+}
+button {
+    position: absolute;
 }

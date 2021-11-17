@@ -1,0 +1,11 @@
+body {font-family: 'Roboto', sans-serif;position: absolute; Width:1024px;Height: 678px}
+header {background-color: #222222}
+#principal {display:flex; flex-wrap: wrap;}
+footer{background-color: #222222;}
+#menu2 {color: #f3f3f3; justify-content:flex-star,; justify-content:space-around; margin: 15px; position:relative; bottom:30px;}
+#final{display:flex; justify-content:flex-end; align-items:center;position:relative;top:40px; margin-right: 40px;}
+#texto {z-index:5; position:relative; bottom: 350px;}
+h2 {color: red}
+#listamenu {color: #f3f3f3; justify-content: flex-end;display: flex; justify-content: space-around; color: #f3f3f3 }
+#podio {justify-content: flex-end}
+#menu{display:inline; justify-content: flex-end; color: #f3f3f3}

@@ -1,0 +1,26 @@
+body{
+    font-family: 'roboto',sans-serif
+}
+header {
+    background-color: #222222; 
+    color: #f3f3f3;
+};
+.informacion {background-color: #3c2313}
+#menu {background-color: #f0a83e; color: #f3f3f3f3}    
+#banner {background-image: url("recursos/foto.png");height: 409px; }    
+button {background-color: #f0a83e}
+h2 {   
+    Width: 345px;
+    Height: 35px; 
+    top: 246px;
+    Left: 658px;
+    color: #f3f3f3
+}
+footer { 
+    background-color: #3c2313
+}
+#derechos {
+     background-color: #222222; color: #f3f3f3;
+}
+.precio { color: #f0a83e}
+menu{display:flex}
