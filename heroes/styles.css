@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-/* HEADER */
+
 
 .header-barra-superior {
     width: 100%;
@@ -18,7 +18,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 18px;
-/* identical to box height */
+
     color: #000000;
     padding: 10px;
 }
@@ -32,13 +32,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     line-height: 47px;
-/* identical to box height */
     color: #000000;
     padding: 28px;
     padding-bottom: 26px;
 }
 
-/* MAIN */
 
 .main-cards {
     width: 960px;
@@ -46,7 +44,11 @@
     left: 32px;
     top: 292px;
 }
+#tercera-barra{background-color: #000000; 
+    color:#F3F3F3;}
 
+#registro {    display:flex; justify-content:flex-end;
+}
 /* CARDS */
 
 .card-container {
@@ -54,22 +56,16 @@
     top: 292px;
     display: inline-block;
     width: 300px;
-    margin: 153px 32px 150px 32px;
 }
 
 .card-heart {
     Width: 300px;
     Height: 26.25px;
-    display: inline;
-    margin-top: 15.88px;
-    margin-left: 21px;
 }
 
 .card-header-batman {
     width: 300px;
     height: 193px;
-    left: 32px;
-    top: 293px;
     background-image: url(/img/background-ciudad.png);
     border-radius: 16px 16px 0px 0px;
 }
@@ -82,8 +78,6 @@
 .card-header-harley {
     width: 300px;
     height: 193px;
-    left: 32px;
-    top: 293px;
     background-image: url(/img/background-colorido.png);
     border-radius: 16px 16px 0px 0px;
 }
@@ -106,8 +100,9 @@
     line-height: 19px;
     color: #333333;
 }
+.main-cards-container {display: flex; justify-content: space-around}
 
-/* FOOTER */
+
 
 footer {
     width: 100%;
@@ -121,7 +116,10 @@ footer {
 .footer-text {
     font-size: 16px;
     line-height: 19px;
-/* identical to box height */
+
     text-align: center;
     color: #FFF9F9;
 }
+@media screen and (max-width:768px) { .main-cards-container {flex-direction: column;}}
+/*AQUÍ ESTÁ EL HTML DEL FORM DE CONTACTO*/
+.botones-form{display:flex}
