@@ -9,16 +9,23 @@ header {
 /*BANNER*/
 #menu {background-color: #f0a83e; color: #f3f3f3f3;display: flex; flex-direction: row;justify-content:flex-end}
 .contenido-menu{display:flex}
-#banner {background-image: url("recursos/foto.png");height: 409px; }      
-button {background-color: #f0a83e}
-#menucito{display:flex; justify-content: space-around}
+h2{font: size 30px;font-weight: 400;background-color: #ffffff; display:inline-block; padding: 10px}
+#comederos-en-descuento{font-size:20px;font-weight:400}
+#parece-boton{background-color: #f0a83e; font-size:18px; font-weight: 400; padding: 15px; color:#ffffff}
+#banner {background-image: url("recursos/foto.png");height: 409px; background-size: cover; align-items: flex-start;justify-content: flex-end}      
+#menucito{display:flex; justify-content: center; margin: 50px; color: #666666; font-weight: 400;}
 /*AQUÍ VAN LAS CARDS*/
-h2 {
-    color: #f3f3f3
-}
+h1 {font-size:40px; font-weight:700; color: #3c2313}
 .todas-las-cards{display: flex; justify-content: space-around;}
-.card{background-color: #fbfaf6}
+.card{background-color: #fbfaf6; font-weight:500;flex-direction: column; justify-content: center;}
 .precio { color: #f0a83e}
+
+/*AQUÍ ESTÁ EL PEDACITO AMARILLO PARA SUSCRIBIRSE*/
+#suscripción{background-color: #f0a83e;
+     color:#f3f3f3f3;
+     display:flex; justify-items: flex-start; font-weight: bold; font-size:30px; 
+    }
+#correito{width: 40px; height: 40px}    
 
 /*FOOTER*/
 footer { 
