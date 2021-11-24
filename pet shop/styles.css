@@ -1,39 +1,109 @@
-body{
-    font-family: 'roboto',sans-serif
+body {
+  font-family: "roboto", sans-serif;
 }
 /*ESTE ES EL HEADER*/
 header {
-    background-color: #222222; 
-    color: #f3f3f3;}
-    #ofertas {display: flex; justify-content:space-between}
+  background-color: #222222;
+  color: #f3f3f3;
+}
+#ofertas {
+  display: flex;
+  justify-content: space-between;
+}
 /*BANNER*/
-#menu {background-color: #f0a83e; color: #f3f3f3f3;display: flex; flex-direction: row;justify-content:flex-end}
-.contenido-menu{display:flex}
-h2{font: size 30px;font-weight: 400;background-color: #ffffff; display:inline-block; padding: 10px}
-#comederos-en-descuento{font-size:20px;font-weight:400}
-#parece-boton{background-color: #f0a83e; font-size:18px; font-weight: 400; padding: 15px; color:#ffffff}
-#banner {background-image: url("recursos/foto.png");height: 409px; background-size: cover; align-items: flex-start;justify-content: flex-end}      
-#menucito{display:flex; justify-content: center; margin: 50px; color: #666666; font-weight: 400;}
+#menu {
+  background-color: #f0a83e;
+  color: #f3f3f3f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.contenido-menu {
+  display: flex;
+}
+h2 {
+  font: size 30px;
+  font-weight: 400;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 15px;
+}
+#comederos-en-descuento {
+  font-size: 20px;
+  font-weight: 400;
+}
+#parece-boton {
+  background-color: #f0a83e;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px;
+  color: #ffffff;
+  border-radius: 15px;
+}
+#banner {
+  background-image: url("recursos/foto.png");
+  height: 409px;
+  background-size: cover;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+#menucito {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  color: #666666;
+  font-weight: 400;
+}
 /*AQUÍ VAN LAS CARDS*/
-h1 {font-size:40px; font-weight:700; color: #3c2313}
-.todas-las-cards{display: flex; justify-content: space-around;}
-.card{background-color: #fbfaf6; font-weight:500;flex-direction: column; justify-content: center;}
-.precio { color: #f0a83e}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3c2313;
+}
+.todas-las-cards {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  background-color: #fbfaf6;
+  font-weight: 500;
+  flex-direction: column;
+  justify-content: center;
+}
+.precio {
+  color: #f0a83e;
+}
 
 /*AQUÍ ESTÁ EL PEDACITO AMARILLO PARA SUSCRIBIRSE*/
-#suscripción{background-color: #f0a83e;
-     color:#f3f3f3f3;
-     display:flex; justify-items: flex-start; font-weight: bold; font-size:30px; 
-    }
-#correito{width: 40px; height: 40px}    
+#liniecita-amarilla {background-color:#f0a83e; }
+#suscripción {
+  background-color: #f0a83e;
+  color: #f3f3f3f3;
+  display: flex;
+  justify-items: flex-start;
+  font-weight: bold;
+  font-size: 30px;
+}
+#correito {
+  width: 40px;
+  height: 40px;
+}
+#formulario { display: flex; justify-items:flex-end; font-size: 20px;}
+#del-form{color:#f3f3f3;background-color:#3c2313;padding:10px; border-radius: 15px;}
 
 /*FOOTER*/
-footer { 
-    background-color: #3c2313
+footer {
+  background-color: #3c2313;
 }
-.informacion {background-color: #3c2313}  
-.info{display: flex; color: #f3f3f3}
+.informacion {
+  background-color: #3c2313;
+}
+.info {
+  display: flex;
+  color: #f3f3f3;
+}
 #derechos {
-     background-color: #222222; color: #f3f3f3;
+  background-color: #222222;
+  color: #f3f3f3;
 }
-
